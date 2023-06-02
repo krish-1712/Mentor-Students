@@ -1,7 +1,7 @@
 var express = require('express');
 const mongoose = require('mongoose')
 const { dbUrl } = require('../Common/dbConfig');
-const { mentorModel } = require('../Models/mentor');
+
 
 mongoose.connect(dbUrl)
 
